@@ -15,7 +15,7 @@ do
     Success = int.TryParse(Console.ReadLine(), out IntNum);
     if (Success == true) Console.WriteLine($"The input value: {IntNum}, is a valid integer\n");
     else Console.WriteLine("The input value provided was not a valid interger, Please try again\n");
-}while (Success == false);
+} while (Success == false);
 
 
 //Double Test
